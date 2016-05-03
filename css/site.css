@@ -1,6 +1,10 @@
+html {
+  min-height:100%;
+}
 body {
     margin: 60px auto;
     width: 70%;
+    min-height:100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,8 +44,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-.pull-right {
-  float: right !important;
 }
