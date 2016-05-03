@@ -27,10 +27,10 @@
            </ul>
 					 <div class="icons">
 					  <ul class="nav pull-right child">
-					 <a href="https://github.com/RaviChimmalgi" target="_blank"><img src="images/github.png" alt="Github Repository" height="70"></a>
-					 <a href="https://www.linkedin.com/in/ravichimmalgi" target="_blank"><img src="images/linkedin.png" alt="Linkedin" height="70"></a>
-					 <a href="http://stackoverflow.com/users/1721485/ravi-chimmalgi?tab=profile" target="_blank"><img src="images/stackof.png" alt="Stack Overflow" height="70"></a>
-					 <a href="#"><img src="images/email.png" alt="Contact Me" height="70"></a>
+					 <a href="https://github.com/RaviChimmalgi" target="_blank"><img src="images/github.png" data-toggle="tooltip" data-placement="bottom" title="Github Repository" alt="Github Repository" height="70"></a>
+					 <a href="https://www.linkedin.com/in/ravichimmalgi" target="_blank"><img src="images/linkedin.png" data-toggle="tooltip" data-placement="bottom" title="Linkedin Profile" alt="Linkedin" height="70"></a>
+					 <a href="http://stackoverflow.com/users/1721485/ravi-chimmalgi?tab=profile" target="_blank"><img src="images/stackof.png" data-toggle="tooltip" data-placement="bottom" title="Stack Overflow Profile" alt="Stack Overflow" height="70"></a>
+					 <a href="#"><img src="images/email.png" data-toggle="tooltip" data-placement="bottom" title="Contact Me" alt="Contact Me" height="70"></a>
 					 </ul>
 				 </div>
          </div><!--/.nav-collapse -->
@@ -71,5 +71,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	 <!-- Include all compiled plugins (below), or include individual files as needed -->
 	 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	 <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 	</body>
 </html>
