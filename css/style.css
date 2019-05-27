@@ -64,6 +64,11 @@ body > .content {
     padding-top: 18px;
   }
 
+@media (min-width: 768px) and (max-width: 991px) {
+   .collapse {
+       display: none !important;
+   }
+}
 
 @media (max-width: 991px){
   .icons{
